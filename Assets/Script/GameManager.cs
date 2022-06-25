@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private float _time;
-    private int _m;
+    //private float _time;
+    //private int _m;
     //public Clear _c;
     //[SerializeField] private Text _text;
     //public ItemPic _key;
@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-    private void Times()
+    /*private void Times()
     {
         _time += Time.deltaTime;
         Debug.Log(_time);
@@ -55,5 +55,5 @@ public class GameManager : MonoBehaviour
             _time = 0;
         }
         
-    }
+    }*/
 }

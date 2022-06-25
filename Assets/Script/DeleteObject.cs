@@ -20,7 +20,6 @@ public class DeleteObject : MonoBehaviour
     private void OnDestroy()
     {
         //Debug.Log("Destroyed");
-        //_a.PlayOneShot(_audio);
         OnDestroyed.Invoke();
         
     }
