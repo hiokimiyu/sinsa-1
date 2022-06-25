@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - item
+  - Enemy
+  - P_item
+  - Item2
+  - Itme2
+  - Item3
+  - Drawer
+  - Drawer5
+  - Drawer2
+  - Drawer3
+  - Drawer4
+  - Drawer6
+  - Drawer7
+  - Drawer8
+  - Drawer9
+  - D1
+  - D2
+  - Item1
+  - Book
+  - Vase1
+  - Vase2
+  - Vase3
+  - Button
+  - BookR
+  - BookG
+  - BookB
+  - Key
+  - Vase4
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
