@@ -17,12 +17,11 @@ public class ItemPic : MonoBehaviour
     bool isF3;
     bool isF4;
     bool isC;
-    //bool isK;
     public bool isKey1;
     public bool isKey2;
     public bool isKey3;
     public bool isKey4;
-    public Text _t1;
+    [SerializeField] private Text _t1;
     [SerializeField] private GameObject _en;
     [SerializeField]private Text _t2;
     [SerializeField] private Text _t3;

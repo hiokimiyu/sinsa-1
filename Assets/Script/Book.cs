@@ -15,7 +15,11 @@ public class Book : MonoBehaviour
     [SerializeField] GameObject _bookr;
     [SerializeField] GameObject _bookg;
     [SerializeField] GameObject _bookb;
-
+    [Header("open")]
+    [SerializeField]private AudioClip _a1;
+    [Header("close")]
+    [SerializeField]private AudioClip _a2;
+    [SerializeField] private Text _t1;
 
     private bool isSe = false;
     bool isR;
@@ -23,12 +27,7 @@ public class Book : MonoBehaviour
     bool isB;
     private GameObject _b;
     private AudioSource _a;
-    [Header("open")]
-    [SerializeField]private AudioClip _a1;
-    [Header("close")]
-    [SerializeField]private AudioClip _a2;
-    [SerializeField] private Text _t1;
-
+    
     // Start is called before the first frame update
     void Start()
     {
