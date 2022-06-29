@@ -111,4 +111,12 @@ public class Button : MonoBehaviour
             _a.PlayOneShot(_audio,1.5f);
         }
     }
+
+    public bool Key
+    {
+        get
+        {
+            return isKey;
+        }
+    }
 }

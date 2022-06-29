@@ -87,10 +87,10 @@ public class Book : MonoBehaviour
                         {
                             _a.PlayOneShot(_a1);
                             //Invoke("Panel", 0.8f);
+                            _t1.enabled = false;
                             _se.SetActive(true);
                             isSe = true;
                             Time.timeScale = 0;
-                            _t1.enabled = false;
 
                         }
 
@@ -98,21 +98,21 @@ public class Book : MonoBehaviour
                         {
                             _a.PlayOneShot(_a1);
                             //Invoke("PanelR", 0.8f);
+                            _t1.enabled = false;
                             _br.SetActive(true);
                             isR = true;
                             Time.timeScale = 0;
-                            _t1.enabled = false;
                         }
 
 
                         if (isG == false && hit.collider.CompareTag("BookG"))
                         {
                             _a.PlayOneShot(_a1);
-                            //Invoke("PanelG", 0.8f); 
+                            //Invoke("PanelG", 0.8f);
+                            _t1.enabled = false;
                             _bg.SetActive(true);
                             isG = true;
                             Time.timeScale = 0;
-                            _t1.enabled = false;
                         }
 
 
@@ -120,10 +120,10 @@ public class Book : MonoBehaviour
                         {
                             _a.PlayOneShot(_a1);
                             //Invoke("PanelB", 0.8f);
+                            _t1.enabled = false;
                             _bb.SetActive(true);
                             isB = true;
                             Time.timeScale = 0;
-                            _t1.enabled = false;
                         }
                     }
                 }

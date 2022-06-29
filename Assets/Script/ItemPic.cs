@@ -12,6 +12,7 @@ public class ItemPic : MonoBehaviour
     [SerializeField] private AudioClip _audio;
     [SerializeField] private AudioClip _aKey;
     private AudioSource _a;
+    [SerializeField] Button _button;
     bool isF1;
     bool isF2;
     bool isF3;
@@ -33,9 +34,14 @@ public class ItemPic : MonoBehaviour
     void Start()
     {
         isF1 = false;
-        isKey1 = false;
         isF2 = false;
+        isF3 = false;
+        isF4 = false;
+        isKey1 = false;
         isKey2 = false;
+        isKey3 = false;
+        isKey4 = false;
+
         _a = GetComponent<AudioSource>();
         _t1.GetComponent<UnityEngine.UI.Text>().enabled = false;
         _en.SetActive(false);
@@ -79,8 +85,8 @@ public class ItemPic : MonoBehaviour
             _t1.text = $"ç≈èâÇÃèäÇ…ñﬂÇÍ";
             Invoke("Text3", 1f);
         }
-        GameObject _key = GameObject.FindGameObjectWithTag("Key");
-        if (_key == null && isF4 == false)
+        //GameObject _key = GameObject.FindGameObjectWithTag("Key");
+        if (_button.Key == true && isF4 == false)
         {
             isF4 = true;
         }
@@ -211,6 +217,6 @@ public class ItemPic : MonoBehaviour
         }*/
 
 
-            }
         }
     }
+}

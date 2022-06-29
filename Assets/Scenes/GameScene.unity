@@ -3849,7 +3849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469713389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.1, y: 2.6, z: -19.34}
+  m_LocalPosition: {x: -20, y: 2.6, z: -19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9438,7 +9438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135742345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.1, y: 3.6, z: -19.34}
+  m_LocalPosition: {x: -20, y: 3.6, z: -19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10134,7 +10134,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199818447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.1, y: 3.6, z: -19.34}
+  m_LocalPosition: {x: -20, y: 3.6, z: -19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10159,6 +10159,7 @@ MonoBehaviour:
   _item1: {fileID: 1176490552}
   _audio: {fileID: 8300000, guid: f173a40e4e7f59a4e960be478d0982e1, type: 3}
   _aKey: {fileID: 8300000, guid: 2c44ea317ce6c6b4eaf4e07ce20f4a35, type: 3}
+  _button: {fileID: 1199818453}
   isKey1: 0
   isKey2: 0
   isKey3: 0
